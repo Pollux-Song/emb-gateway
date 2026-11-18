@@ -80,8 +80,8 @@ mosquitto_sub -h localhost -t 'dev/+/data' -v
 
 ```
 src/
-├── ringbuf.c/h    ← 环形缓冲区（我写的）
-├── protocol.c/h   ← 帧编码 + CRC8（我写的）
+├── ringbuf.c/h    ← 环形缓冲区（核心模块）
+├── protocol.c/h   ← 帧编码 + CRC8（核心模块）
 ├── sensor.c/h     ← 模拟传感器源
 └── gateway.c      ← 主循环，MQTT 发布
 tests/
