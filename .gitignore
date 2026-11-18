@@ -1,0 +1,7 @@
+
+*.o
+gateway
+gateway_sim
+test_core
+cloud/data.db
+__pycache__/
